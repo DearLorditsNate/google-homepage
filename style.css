@@ -10,17 +10,23 @@ html {
 }
 
 #content-wrap {
-    max-width: 1080px;
     margin: 0 auto;
     padding: 0px 0px;
     overflow: auto;
     min-height: 100%;
     position: relative;
+    font-family: arial, sans-serif;
 }
 
 .navbar {
-    display: block;
+    display: inline-block;
     float: right;
+    padding: 10px 20px 160px 0px;
+/*    background: gray;*/
+    word-spacing: 14px;
+    font-size: 14px;
+    opacity: .75;
+    vertical-align: top;
 }
 
 #body {
@@ -47,13 +53,30 @@ html {
 .footer-left {
     display: inline-block;
     position: relative;
-/*    float: left;*/
-    text-align: left;
+    float: left;
+/*    text-align: left;*/
 }
 
 .footer-right {
     display: inline-block;
     position: relative;
-/*    float: right;*/
-    text-align: right;
+    float: right;
+/*    text-align: right;*/
+}
+
+.button {
+    border: 1px solid #4387fd;
+    font-weight: bold;
+    outline: none;
+    background: #4387fd;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

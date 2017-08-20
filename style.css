@@ -39,7 +39,6 @@ html {
     margin: auto;
     display: block;
     clear: right;
-    vertical-align: middle;
 }
 
 #footer {
@@ -79,4 +78,17 @@ html {
 a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+input {
+    display: block;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+/*    border-radius: 2px;*/
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #888;
+    border: 0.2px #ccc;
 }

@@ -6,4 +6,4 @@ Starting from blank .txt documents, I entered every key stroke of code myself. T
 
 I'm excited to one day look back on this project and smile at how proud I was of something so simple—but it was my first simple thing that I created!
 
-Live page lives here: dearlorditsnate.github.io/google-homepage
+Live page lives here: https://dearlorditsnate.github.io/google-homepage
